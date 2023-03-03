@@ -1,9 +1,10 @@
 SRC = *.c 
+CC = gcc -Wall -pedantic -Werror -Wextra -std=gnu89
 
 all: main
 
 main: $(SRC) binary_trees.h
-	gcc $(SRC) -o main
+	$(CC) $(SRC) -o main
 	./main
 
 play: playground.c
