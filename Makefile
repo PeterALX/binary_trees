@@ -1,4 +1,4 @@
-SRC = main.c 0-binary_tree_node.c binary_tree_print.c
+SRC = *.c 
 
 all: main
 
